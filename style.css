@@ -63,15 +63,15 @@ h2 {
 }
 
 .ingredientes {
-   cursor: url("./Images/cursor_ingredientes.png"), default;
+   cursor: url("./images/cursor_ingredientes.png"), default;
 }
 
 .preparo {
-   cursor: url("./Images/cursor_preparo.png"), default;
+   cursor: url("./images/cursor_preparo.png"), default;
 }
 
 .instrucoes {
-   cursor: url("./Images/cursor_intrucoes.png"), default;
+   cursor: url("./images/cursor_intrucoes.png"), default;
 }
 
 li {
