@@ -16,7 +16,7 @@ body {
 }
 
 #cabecalho {
-   background-image: url(./Images/hero_bolo.jpg);
+   background-image: url(./images/hero_bolo.jpg);
    background-size: cover;
    background-position: center;
    height: 400px;
@@ -78,7 +78,7 @@ li {
    margin: 30px;
 }
 
-ul>li {
+ul > li {
    position: relative;
    margin-left: 0;
 }
@@ -106,7 +106,7 @@ a {
 
 p,
 li {
-   line-height: 28px
+   line-height: 28px;
 }
 
 .rodape {

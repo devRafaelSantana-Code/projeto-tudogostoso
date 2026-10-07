@@ -1,16 +1,34 @@
 # 🍰 Portal Gastronómico — Réplica TudoGostoso
 
 <p align="center">
-  <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="HTML5">
-  <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white" alt="CSS3">
-  <img src="https://img.shields.io/badge/Lato-Font-0088CC" alt="Lato Font">
+
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+
+  <img src="https://img.shields.io/badge/Lato-Font-0088CC?style=for-the-badge" alt="Lato Font">
+
+</p>
+
+## 🌐 Demonstração Online
+
+<p align="center">
+
+  <a href="https://projeto-tudogostoso.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/Ver%20Projeto-Online-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Ver projeto online na Vercel">
+  </a>
+
+</p>
+
+<p align="center">
+  <strong>🔗 https://projeto-tudogostoso.vercel.app/</strong>
 </p>
 
 ## 📌 Sobre o Projeto
 
 Este projeto é uma aplicação **front-end estática** inspirada na estrutura visual de portais de receitas como o **TudoGostoso**.
 
-Desenvolvido a partir de desafios práticos de estilização da plataforma **ProgramadorBR**, o projeto apresenta uma página dedicada à receita de **Bolo de Fubá com Goiabada**, organizando ingredientes, modo de preparo e informações complementares numa interface visualmente estruturada.
+Desenvolvido a partir de desafios práticos de estilização da plataforma **ProgramadorBR**, o projeto apresenta uma página dedicada à receita de **Bolo de Fubá com Goiabada**, organizando ingredientes, modo de preparo e informações complementares em uma interface visualmente estruturada.
 
 O principal objetivo é praticar a construção de layouts utilizando **HTML5 e CSS3**, explorando organização por cartões, imagens, tipografia, posicionamento de elementos, efeitos de interação e estruturação semântica de conteúdos.
 
@@ -39,7 +57,7 @@ O projeto utiliza a propriedade `cursor` do CSS para personalizar o ponteiro do 
 
 Exemplo:
 
-```css id="6t7y4x"
+```css
 cursor: url(...);
 ```
 
@@ -55,7 +73,7 @@ A combinação de sombras e alterações visuais permite destacar elementos quan
 
 Exemplo:
 
-```css id="q9u2n1"
+```css
 .elemento:hover {
    /* alterações visuais */
 }
@@ -67,12 +85,12 @@ O cabeçalho da página utiliza uma imagem de destaque através de `background-i
 
 A imagem é adaptada ao espaço disponível através de:
 
-```css id="0w7x8c"
+```css
 background-size: cover;
 background-position: center;
 ```
 
-O uso de `cover` permite preencher a área definida sem distorcer as proporções originais da imagem.
+O uso de `cover` permite preencher a área definida mantendo a proporção da imagem.
 
 ### 🧩 Posicionamento de Elementos
 
@@ -88,7 +106,7 @@ A estrutura HTML foi organizada de acordo com a natureza do conteúdo apresentad
 
 Os ingredientes são apresentados através de uma lista não ordenada:
 
-```html id="t1m8o4"
+```html
 <ul>
    <li>...</li>
    <li>...</li>
@@ -101,7 +119,7 @@ O elemento `<ul>` é adequado porque os ingredientes não dependem de uma ordem 
 
 O modo de preparo utiliza uma lista ordenada:
 
-```html id="h3k6v9"
+```html
 <ol>
    <li>...</li>
    <li>...</li>
@@ -132,13 +150,13 @@ Por ser uma aplicação web estática desenvolvida com HTML e CSS, não é neces
 
 ### 1. Clonar o repositório
 
-```bash id="4y3p6n"
+```bash
 git clone https://github.com/SEU-USUARIO/projeto-tudogostoso.git
 ```
 
 ### 2. Aceder ao diretório
 
-```bash id="c8k2w5"
+```bash
 cd projeto-tudogostoso
 ```
 
@@ -152,7 +170,7 @@ Como alternativa, pode utilizar a extensão **Live Server** no Visual Studio Cod
 
 ## 📁 Estrutura do Projeto
 
-```text id="p6m4r2"
+```text
 projeto-tudogostoso/
 │
 ├── index.html
@@ -163,14 +181,6 @@ projeto-tudogostoso/
 │   └── ...
 └── README.md
 ```
-
----
-
-## 👨‍💻 Autor
-
-**Rafael Santana** 🚀
-
-> Estudante de Engenharia da Computação, focado no desenvolvimento de interfaces web, arquitetura de componentes, CSS e fundamentos de Engenharia de Software.
 
 ---
 
@@ -190,6 +200,14 @@ projeto-tudogostoso/
 
 ---
 
+## 👨‍💻 Autor
+
+**Rafael Santana** 🚀
+
+> Estudante de Engenharia da Computação, focado no desenvolvimento de interfaces web, arquitetura de componentes, CSS e fundamentos de Engenharia de Software.
+
+---
+
 <p align="center">
-  Projeto desenvolvido para fins educacionais e para consolidação de conhecimentos em HTML5, CSS3 e desenvolvimento de interfaces web.
+  Projeto desenvolvido para fins educacionais e para consolidação de conhecimentos em HTML5, CSS3, CSS Grid, Flexbox e desenvolvimento de interfaces responsivas.
 </p>
